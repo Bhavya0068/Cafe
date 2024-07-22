@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Menu</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        
+        .bg
+        {
+          background-color: #bb9e8a;
+        }
+        .menu-item {
+            margin-bottom: 20px;
+        }
+        .menu-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .menu-item .menu-info {
+            padding: 10px;
+        }
+        .menu-item .menu-info h4 {
+            margin-top: 0;
+        }
+        .container-fluid
+        {
+            background-color: #6F4E37;
+            color: aliceblue;
+            font-family: cursive;
+        }
+        .navbar-brand
+        {
+            /* background-color: rgb(211, 35, 35); */
+            color:rgb(248, 249, 250);
+        }
+        
+        .nav-link
+        {
+          color: rgb(248, 249, 250);
+        }
+        .ch
+        {
+          font-family: cursive;
+          margin: 10px;
+          background-color: #a1816a;
+        }
+        .home
+        {
+          margin: 10px;
+          border: 2px black solid;
+          width: 1325px;
+          height: 565px;
+        }
+        
+    </style>
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <h1 class="ch">Cafe Cave</h1>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactme.html">Contact Me</a>
+              </li>            
+            </ul>           
+            <form class="d-flex" role="search">
+            <tr><td><td>
+              <select name="Books" class="form-control me-2" id="Books" value="Choose a  Coffee ">
+                <option value="Coffee">choose your order</option>
+                  <option value="Coffee1">Coffee</option>
+                  <option value="Coffee1">Tea</option>
+                  <option value="Coffee1">Muffin</option>
+                  <option value="Coffee1">Sandwich</option>
+                  <option value="Coffee1">Mocktail</option>
+                  <option value="Coffee1">Cake</option>
+                  
+                </select></td>
+              <button class="btn btn-light" type="submit">Search</button></td></tr>             
+              </form>
+          </div>
+        </div>
+      </nav>
+</header>
+<body class="bg">
+    <div class="container">
+        <h1 class="text-center">Cafe Menu</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="coffee.jpeg" alt="Coffee">
+                    <div class="menu-info">
+                        <h4>Coffee</h4>
+                        <p>Our specialty coffee made from 100% Arabica beans.</p>
+                        <p>Price: &#8377 239</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="Tea.jpeg" alt="Tea">
+                    <div class="menu-info">
+                        <h4>Tea</h4>
+                        <p>A selection of herbal and caffeinated teas.</p>
+                        <p>Price: &#8377 69</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="Muffin.jpeg" alt="Muffin">
+                    <div class="menu-info">
+                        <h4>Muffin</h4>
+                        <p>Freshly baked muffins in a variety of flavors.</p>
+                        <p>Price: &#8377 179</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="sandwitch.jpeg" alt="Sandwich">
+                    <div class="menu-info">
+                        <h4>Sandwich</h4>
+                        <p>Delicious sandwiches made with freshly baked bread.</p>
+                        <p>Price: &#8377 119</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="Mocktail.jpeg" alt="Salad">
+                    <div class="menu-info">
+                        <h4>Mocktail</h4>
+                        <p>Raising a glass to the art of mocktail mixology.</p>
+                        <p>Price: &#8377 149</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="cake.jpeg" alt="Cake">
+                    <div class="menu-info">
+                        <h4>Cake</h4>
+                        <p>Moist and delicious cakes in a variety of flavors.</p>
+                        <p>Price: &#8377 200</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+  <div class="container-fluid">
+    <nav align="center">CafeCave@123 | Privacy Policy</nav>
+  </div>
+</footer>
+</html>

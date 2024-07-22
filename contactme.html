@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .container-fluid
+        {
+            background-color: #6F4E37;
+            color: aliceblue;
+            font-family: cursive;
+        }
+        .navbar-brand
+        {
+            /* background-color: rgb(211, 35, 35); */
+            color:rgb(248, 249, 250);
+        }
+        
+        .nav-link
+        {
+          color: rgb(248, 249, 250);
+        }
+        .ch
+        {
+          font-family: cursive;
+          margin: 10px;
+          background-color: #a1816a;
+        }
+        .home
+        {
+          margin: 10px;
+          border: 2px black solid;
+          width: 1325px;
+          height: 565px;
+        }
+        .contact-form
+        {
+          margin: 20px;
+          padding: 20px;
+          background-color: #f7f7f7;
+          border: 1px solid #ccc;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <h1 class="ch">Cafe Cave</h1>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contactme.html">Contact Me</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+</header>
+<body>
+    <div class="contact-form">
+      <h2>Contact Me</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Your Email">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+      <h3>Our Details</h3>
+      <p>
+        Cafe House<br>
+        123 Main St, Anytown, India 12345<br>
+        Phone: 555-555-5555<br>
+        Email: [cafeCave@123.com](mailto:cafeCave@123.com)
+      </p>
+      <div>
+        <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6874.250602073726!2d76.65771434944963!3d30.
+          517495802090604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fc32344a6e2d7%3A0x81b346dee91799ca!2sChitkara
+          %20University!5e0!3m2!1sen!2sin!4v1721627223529!5m2!1sen!2sin" width="900" height="450" style="border:0;"
+           allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+</body>
+<footer>
+  <div class="container-fluid">
+    <nav align="center">CafeCave@123 | Privacy Policy</nav>
+  </div>
+</footer>
+</html>
